@@ -35,12 +35,10 @@
             return {
               tab_title:[],
               tab_left_list:[],
-              tab_right_list:[],
-              "college_detail":[],
-              "college_title":[],
+              tab_right_list:[]
             }
         },
-        methods:Object.assign({},mapMutations(["update_major_obj","update_school_range","update_area_range","cancel"])),
+        methods:Object.assign({},mapMutations(["update_major_obj","update_school_range","update_area_range","cancel","update_college_detail","update_college_title"])),
         computed:Object.assign({},
         // {
         //     //这个对象可以免写
@@ -52,7 +50,7 @@
         //     return this.$store.school_area_obj;
         //   },
         // },
-        mapState(["major_obj","school_range_obj","school_area_obj"])),
+        mapState(["major_obj","school_range_obj","school_area_obj","college_detail","college_title"])),
        
         created:function(){
           var _this=this;
@@ -93,8 +91,8 @@
             
             // 根据大学数据
             _this.tab_right_list=right_arr;
-            _this.college_title=res.data.result.title;
-            _this.college_detail=res.data.result.rows;
+            _this.update_college_title(res.data.result.title);
+            _this.update_college_detail(res.data.result.rows);
             // var college_arr=[];
             // var s=0;
             // console.log(res.data.result.rows);

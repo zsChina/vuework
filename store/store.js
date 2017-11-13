@@ -9,8 +9,23 @@ let store=new Vuex.Store({
 		major_obj:[],
 		school_range_obj:[],
 		school_area_obj:[],
+		college_detail:[],
+		college_title:[]
 	},
 	mutations:{
+		update_college_detail:function(state,data){
+			state.college_detail=data;
+		},
+		show_flag:function(state,obj){
+			if (obj.ind==0) {
+				obj.x[9][obj.ind].special=!obj.x[9][obj.ind].special;
+			}
+			state.college_detail[obj.index]=obj.x;
+			
+		},
+		update_college_title:function(state,data){
+			state.college_title=data;
+		},
 		update_school_range:function(state,data){
 			state.school_range_obj=data;
 		},

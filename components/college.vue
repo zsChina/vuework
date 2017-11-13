@@ -1,7 +1,7 @@
 <template>
     <div>
       <div>
-        <div class="search"> <input type="text" placeholder="请输入要搜索的学校名称"> <span>检索</span></div>
+        <div class="search"> <input type="text" v-model="school_name" placeholder="请输入要搜索的学校名称"> <span>检索</span></div>
       </div>
      	<h3>选考科目分析</h3>
       <div class="remind">*科目比例：要求所选选考科目的专业总数/条件范围内专业总数。以专业为例：经济统计学专业历史所占比例为66.7%，意为选考历史，66.7%的经济统计学专业均可报考。</div>
@@ -22,9 +22,9 @@
               tab_title:[],
               tab_left_list:[],
               tab_right_list:[],
+              school_name:''
             }
         },
-       
         created:function(){
           var _this=this;          
           this.$http("./data/general.json").then(function(res){

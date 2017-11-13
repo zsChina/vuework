@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1,
+        "parentId": 0,
+        "name": "哲学",
+        "children": [
+            {
+                "id": 2,
+                "parentId": 1,
+                "name": "哲学类",
+                "children": [
+                    {
+                        "id": 3,
+                        "parentId": 2,
+                        "name": "哲学",
+                        "children": null
+                    },
+                    {
+                        "id": 4,
+                        "parentId": 2,
+                        "name": "逻辑学",
+                        "children": null
+                    },
+                    {
+                        "id": 5,
+                        "parentId": 2,
+                        "name": "宗教学",
+                        "children": null
+                    },
+                    {
+                        "id": 6,
+                        "parentId": 2,
+                        "name": "伦理学",
+                        "children": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "parentId": 0,
+        "name": "经济学",
+        "children": [
+            {
+                "id": 8,
+                "parentId": 7,
+                "name": "经济学类",
+                "children": [
+                    {
+                        "id": 9,
+                        "parentId": 8,
+                        "name": "经济学",
+                        "children": null
+                    },
+                    {
+                        "id": 10,
+                        "parentId": 8,
+                        "name": "经济统计学",
+                        "children": null
+                    },
+                    {
+                        "id": 11,
+                        "parentId": 8,
+                        "name": "国民经济管理",
+                        "children": null
+                    },
+                    {
+                        "id": 12,
+                        "parentId": 8,
+                        "name": "资源与环境经济学",
+                        "children": null
+                    },
+                    {
+                        "id": 13,
+                        "parentId": 8,
+                        "name": "商务经济学",
+                        "children": null
+                    },
+                    {
+                        "id": 14,
+                        "parentId": 8,
+                        "name": "能源经济",
+                        "children": null
+                    },
+                    {
+                        "id": 15,
+                        "parentId": 8,
+                        "name": "劳动经济学",
+                        "children": null
+                    },
+                    {
+                        "id": 16,
+                        "parentId": 8,
+                        "name": "财政学类",
+                        "children": [
+                            {
+                                "id": 17,
+                                "parentId": 16,
+                                "name": "财政学",
+                                "children": null
+                            },
+                            {
+                                "id": 18,
+                                "parentId": 16,
+                                "name": "税收学",
+                                "children": null
+                            },
+                            {
+                                "id": 19,
+                                "parentId": 16,
+                                "name": "金融学类",
+                                "children": [
+                                    {
+                                        "id": 20,
+                                        "parentId": 19,
+                                        "name": "金融学",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 21,
+                                        "parentId": 19,
+                                        "name": "金融工程",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 22,
+                                        "parentId": 19,
+                                        "name": "保险学",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 23,
+                                        "parentId": 19,
+                                        "name": "投资学",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 24,
+                                        "parentId": 19,
+                                        "name": "金融数学",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 25,
+                                        "parentId": 19,
+                                        "name": "信用管理",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 26,
+                                        "parentId": 19,
+                                        "name": "经济与金融",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 27,
+                                        "parentId": 19,
+                                        "name": "精算学",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 28,
+                                        "parentId": 19,
+                                        "name": "互联网金融",
+                                        "children": null
+                                    },
+                                    {
+                                        "id": 29,
+                                        "parentId": 19,
+                                        "name": "经济与贸易类",
+                                        "children": [
+                                            {
+                                                "id": 30,
+                                                "parentId": 29,
+                                                "name": "国际经济与贸易",
+                                                "children": null
+                                            },
+                                            {
+                                                "id": 31,
+                                                "parentId": 29,
+                                                "name": "贸易经济",
+                                                "children": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
