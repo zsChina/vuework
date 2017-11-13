@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.16rem; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
+html {
+  user-selector: none; }
+
+.wrap {
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto; }
+  .wrap .select_title {
+    line-height: 45px; }
+    .wrap .select_title span {
+      font-size: 18px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      margin: 0 2px; }
+    .wrap .select_title div {
+     
+      display: inline-block;
+      font-size: 18px; }
+  .wrap .select_wrap {
+    clear: both;
+    height: 260px;
+    border: 1px solid #ccc; }
+    .wrap .select_wrap div div, .wrap .select_wrap div span {
+      margin: 10px 0;
+      padding: 5px;
+      height: 40px;
+      line-height: 35px;
+      font-size: 16px;
+      float: left; }
+    .wrap .select_wrap div span:hover {
+      background: #00a05c;
+      color: #fff; }
+    .wrap .select_wrap div span.active {
+      background: #00a05c;
+      color: #fff; }
+      .wrap .select_wrap>div{
+        height:35px;
+        line-height: 35px;
+        clear: both;
+      }
+/*# sourceMappingURL=style.css.map */
