@@ -2,7 +2,9 @@
 	<tbody>
 		<tr>
 			<td v-for="(sub_item,index) in tit_info">
-				<span @click="show_flag" v-if="index==0" class="sub_btn">+</span> {{sub_item}}
+				
+				<span @click="show_flag" v-if="index==0" v-show="flag" class="sub_btn">-</span> 
+				<span @click="show_flag" v-if="index==0" v-show="!flag" class="sub_btn">+</span> {{sub_item}}
 			</td>
 		</tr>
 		<tr v-show="flag">

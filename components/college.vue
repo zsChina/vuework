@@ -8,12 +8,14 @@
         <tab-view class="tab_list" :title_="tab_title" :list_="tab_left_list"></tab-view>
         <tab-view class="tab_list" :title_="tab_title" :list_="tab_right_list"></tab-view>
         <div class="clearfix"></div>
+        <!-- <college-tab :college_tit="college_title" :college_detail="college_detail" ></college-tab> -->
     </div>
 </template>
 <script>
 
     import tab_view from "./table_view.vue";
     import college_tab from "./college_tab.vue";
+    // import college_tab from "./college_tab.vue";
     
     export default {
         name:'college',
@@ -55,7 +57,8 @@
         },
         components: {
         'tab-view':tab_view,
-        'college-tab':college_tab
+        'college-tab':college_tab,
+        
       }
 
     }
